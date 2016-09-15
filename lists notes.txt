@@ -1,0 +1,47 @@
+        #LISTS ARE MUTABLE
+#la leccion empieza diciendo que si se pueden alterar las listas pero no las strings
+ejemplo
+fruit='banana'
+fruit[0]='b'
+traceback error
+
+
+lotto=[2,3,45,5]
+print lotto = [2,3,45,5]
+lotto[2]=28
+print lotto = [2,3,28,5]
+#puedes imprimir el len(list) para que te de la longitud de los elementos de la lista sin importar que tipo de valor sean
+
+
+#la funcion range genera una lista de numeros.
+Esta lista empieza en 0 y acaba un numero antes del parametro que le pediste. 
+print range (4)
+[0,1,2,3]
+
+Si combinas la funcion range con un "len" entonces puedes:
+
+friends=['joseph','sally','molly']
+print len(friends)
+3
+print range(len(friends)) #el len(friends) osea 3...se vuelve tu parametro dentro del range para hacer una lista de 3 espacios.
+[0,1,2]
+estas metiendo el largo de friends en el range para crear una lista con ese mismo largo como parametro.
+, eso te da un numero y ese numero lo metes al range para que te den los demas numeros dentro de friends
+
+
+
+#we can create an empty list and then add elements using "append"
+The list stays in order and new elements are added at the end of the list
+stuff=list()
+stuff.append('book')
+stuff.append('9')
+print stuff
+['book',9]
+
+para saber si algo esta dentro de una lista puedes usar in y not in...te regresa true o false
+#a list can hold many items and keeps them in order until we do something to change the order
+#.sort() es para decirle a lista "sort yourself" con eso cambia su orden...123 a 231 etc...si son palabrass los ordena alfabeticamente
+
+
+
+
